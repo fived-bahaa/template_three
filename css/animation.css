@@ -1,0 +1,87 @@
+
+/* Start Animation */
+@keyframes up-and-down {
+  0%,100% {
+    top: 0;
+  }
+  50% {
+    top: -20px;
+  }
+}
+@keyframes bouncing {
+  0%,
+  10%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-15px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+@keyframes left-width {
+  50% {
+    left: 0;
+  }
+  100% {
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    border-radius: 0;
+    z-index: -1;
+  }
+}
+@keyframes right-width {
+  50% {
+    right: 0;
+  }
+  100% {
+    right: 0px;
+    width: 50%;
+    height: 100%;
+    border-radius: 0;
+    z-index: -1;
+  }
+}
+@keyframes card-icon {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 12px;
+  }
+}
+@keyframes moving-arrow {
+  100% {
+    transform: translateX(10px);
+  }
+}
+@keyframes flashing {
+  0%, 40% {
+    opacity: 1;
+  }
+  100% {
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+  }
+}
+@keyframes progress {
+  0% {
+    width: 0;
+  }
+}
+@keyframes change-background {
+  0%, 100% {
+    background-image: url("../images/discount-background1.jpg");
+  }
+  50% {
+    background-image: url("../images/discount-background2.jpg");
+  }
+}
+/* End Animation */
